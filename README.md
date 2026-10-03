@@ -1,321 +1,569 @@
 # 🛒 Amazon Sales Dashboard | Power BI
 
-![Power BI](https://img.shields.io/badge/Tool-Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Status](https://img.shields.io/badge/Project-Completed-success?style=for-the-badge)
-![Dashboard](https://img.shields.io/badge/Dashboard-Interactive-blue?style=for-the-badge)
+A professional Power BI dashboard designed to analyze Amazon sales performance, profitability, product performance, customer/order trends, payment methods, and geographic sales distribution.
+
+The dashboard provides an interactive view of business performance and allows users to filter results by **Year, Order Status, Payment Method, State, and Category**.
 
 ---
 
-# 📌 Project Overview
+## 📌 Project Overview
 
-The **Amazon Sales Dashboard** is an interactive Business Intelligence dashboard developed using **Microsoft Power BI** to analyze Amazon sales performance across different business dimensions.
+The **Amazon Sales Dashboard** transforms sales transaction data into an interactive business intelligence report using **Microsoft Power BI**.
 
-The dashboard transforms raw sales data into meaningful visual insights that help stakeholders monitor business performance, identify sales trends, evaluate customer behavior, compare regional performance, and support strategic decision-making.
+The objective of this project is to provide a single-page management dashboard that helps users:
 
-The project demonstrates practical knowledge of:
+- Monitor overall sales and profit performance
+- Compare current performance with the previous year
+- Analyze yearly sales trends
+- Identify high-performing product categories
+- Identify top-performing products
+- Analyze order and customer volume
+- Understand payment-method distribution
+- Compare sales performance across states
+- Analyze product-level sales, quantity, and profit
+- Explore the data through interactive slicers
 
-- Data Cleaning
-- Data Modeling
-- DAX Measures
-- Data Visualization
-- Dashboard Design
-- Business Analytics
-- KPI Monitoring
-
----
-
-# 🎯 Project Objective
-
-The main objective of this project is to convert raw Amazon sales data into an interactive dashboard that helps businesses:
-
-- Monitor sales performance
-- Analyze customer purchasing behavior
-- Track product performance
-- Identify profitable regions
-- Compare categories and products
-- Monitor yearly/monthly sales trends
-- Support business decision making through visual analytics
+This project demonstrates practical skills in **data cleaning, data modeling, DAX, data visualization, dashboard design, and business analysis**.
 
 ---
 
-# 💼 Business Purpose
+## 🎯 Business Objectives
 
-Businesses generate huge amounts of sales data every day.
+The dashboard was developed to answer important business questions such as:
 
-Without proper analysis, it becomes difficult to answer questions like:
-
-- Which products generate the highest revenue?
-- Which states contribute the most sales?
-- Which categories need improvement?
-- How are sales changing over time?
-- Which customer segments purchase more?
-- Which regions should receive more inventory?
-
-This dashboard solves these problems by presenting all important business information in one interactive report.
-
----
-
-# 📊 Dashboard Features
-
-The dashboard contains interactive visuals such as:
-
-- KPI Cards
-- Clustered Column Chart
-- Clustered Bar Chart
-- Area Chart
-- Donut Chart
-- Shape Map
-- Sales Table
-- Multiple Slicers
-- Dynamic Filtering
-
-Users can filter data instantly using slicers to perform detailed analysis.
+1. What is the total sales revenue?
+2. How does the current year's sales compare with the previous year?
+3. How much profit is generated?
+4. Which product categories generate the highest sales?
+5. Which products are the top contributors to sales?
+6. How many orders and customers are represented in the data?
+7. Which payment methods are most frequently used?
+8. Which states contribute to sales?
+9. Which products generate higher profit?
+10. How do sales and business performance change over time?
 
 ---
 
-# 📈 Key Performance Indicators (KPIs)
+## 🖥️ Dashboard Preview
 
-The dashboard highlights important business metrics such as:
+![Amazon Sales Dashboard](Dashboard%20Screenshot.png)
 
-- 💰 Total Sales
-- 📦 Total Orders
-- 👥 Total Customers
-- ⭐ Average Rating
-- 📊 Total Quantity Sold
-
-These KPIs provide a quick overview of business performance.
+> **Note:** If your screenshot has a different filename in the GitHub repository, update the image path above accordingly.
 
 ---
 
-# 📉 Business Questions Answered
+## 📊 Dashboard KPIs
 
-This dashboard helps answer important business questions including:
+The top KPI section provides a quick overview of business performance.
 
-- Which category generates maximum sales?
-- Which products are best sellers?
-- Which state contributes the highest revenue?
-- What are monthly sales trends?
-- Which customer segment performs best?
-- Which products have low sales?
-- How is sales performance changing over time?
-- Which locations require business attention?
+### Key KPI Cards
 
----
+| KPI | Description |
+|---|---|
+| **Net Sales** | Total revenue generated from sales |
+| **Net Sales LY** | Previous-year sales used for comparison |
+| **Net Sales YoY %** | Year-over-year change in sales |
+| **Profit** | Total profit generated |
+| **Profit LY** | Previous-year profit |
+| **Profit YoY %** | Year-over-year change in profit |
+| **Total Orders** | Total number of orders |
+| **Orders LY** | Previous-year order volume |
+| **Orders YoY %** | Year-over-year order change |
+| **Customers** | Total customers represented in the analysis |
+| **Customers LY** | Previous-year customer count |
+| **Customers YoY %** | Year-over-year customer change |
+| **Profit Margin** | Profit as a percentage of sales |
+| **Profit Margin LY** | Previous-year profit margin |
+| **Profit Margin YoY** | Year-over-year margin change |
 
-# 📊 Data Analysis Performed
+### Example Dashboard View
 
-The dashboard performs analysis across multiple dimensions:
+For the displayed **2024** selection, the dashboard shows approximately:
 
-### Sales Analysis
+- **Net Sales:** ₹18.17M
+- **Previous-Year Sales:** ₹18.51M
+- **Profit:** ₹3.63M
+- **Previous-Year Profit:** ₹3.70M
+- **Total Orders:** approximately 20K
+- **Customers:** approximately 16K
+- **Profit Margin:** approximately 20%
 
-- Total Revenue
-- Sales Distribution
-- Revenue Comparison
-- Monthly Sales Trend
-
-### Product Analysis
-
-- Best Selling Products
-- Product Category Performance
-- Product Contribution
-
-### Regional Analysis
-
-- State-wise Sales
-- Regional Performance
-- High Revenue Locations
-
-### Customer Analysis
-
-- Customer Purchase Behavior
-- Order Distribution
-- Customer Contribution
+These values reflect the filters and data visible in the dashboard screenshot and may change when different slicer selections are applied.
 
 ---
 
-# 📈 Trends Identified
+## 🎛️ Interactive Filters
 
-The dashboard helps identify:
+The dashboard includes the following slicers:
 
-- High performing products
-- Low performing products
-- Growing sales periods
-- Seasonal demand
-- Customer purchasing patterns
-- Region-wise demand variation
-- Sales growth trends
-- Product popularity
+### 1. Year
+Allows users to select a specific year and analyze performance for that period.
 
----
+### 2. Order Status
+Filters the dashboard according to order status.
 
-# 💡 Decision Making Insights
+### 3. Payment Method
+Allows analysis of sales based on payment method.
 
-This dashboard supports business decisions by providing insights such as:
+### 4. State
+Filters sales performance geographically.
 
-### Inventory Planning
+### 5. Category
+Allows users to focus on specific product categories.
 
-Identify products with high demand to maintain sufficient inventory.
+Because the dashboard is interactive, all major visuals update according to the selected filters.
 
 ---
 
-### Marketing Strategy
+# 📈 Dashboard Visualizations
 
-Focus advertisements on products and regions with higher sales potential.
+## 1. Total Sales by Year
+
+**Chart Type:** Area Chart
+
+This visualization displays the historical sales trend across years.
+
+It helps identify:
+
+- Annual sales performance
+- Growth or decline over time
+- Year-to-year changes
+- Long-term sales patterns
+
+The chart also supports comparison using the dashboard's year-over-year analysis.
 
 ---
+
+## 2. Total Sales by Category
+
+**Chart Type:** Column Chart
+
+This chart compares sales generated by different product categories.
+
+Categories visible in the dashboard include examples such as:
+
+- Toys & Games
+- Electronics
+- Books
+- Clothing
+- Home & Kitchen
+- Sports & Outdoors
+
+### Business Use
+
+This visual helps identify:
+
+- High-revenue categories
+- Lower-performing categories
+- Category contribution to total revenue
+- Areas requiring further business analysis
+
+---
+
+## 3. Total Sales by Product Name
+
+**Chart Type:** Horizontal Bar Chart
+
+This visualization displays the highest-performing products based on total sales.
+
+Example products visible in the dashboard include:
+
+- Wireless Charger
+- Yoga Mat
+- Wireless Earbuds
+- Webcam Full HD
+- Winter Jacket
+
+### Business Use
+
+This helps identify products that contribute significantly to overall revenue and can support decisions related to inventory, promotions, and product strategy.
+
+---
+
+## 4. Product Performance & Volume Breakdown
+
+**Chart Type:** Detailed Table
+
+The table provides product-level performance information.
+
+### Fields included
+
+- Product Name
+- Category
+- Net Sales
+- Quantity
+- Profit
+
+The table also includes a total row for overall performance.
+
+### Business Use
+
+This visual allows users to compare individual products based on:
+
+- Revenue
+- Sales volume
+- Profitability
+- Product category
+
+---
+
+## 5. Total Sales by Payment Method
+
+**Chart Type:** Donut Chart
+
+This visualization shows how sales are distributed across payment methods.
+
+Payment methods represented include examples such as:
+
+- Credit Card
+- Debit Card
+- UPI
+- Amazon Pay
+- Net Banking
+- Cash on Delivery
+
+### Business Use
+
+This analysis helps understand customer payment preferences and the contribution of different payment channels to total sales.
+
+---
+
+## 6. Profit by State
+
+**Chart Type:** Filled/Geographic Map
+
+The geographic visual shows profit performance across U.S. states represented in the dataset.
+
+States are visually differentiated according to category-related data shown in the dashboard.
+
+### Business Use
+
+The map can help users explore:
+
+- Geographic sales/profit distribution
+- Regional performance
+- State-level differences
+- Potential high-performing and low-performing markets
+
+---
+
+# 🧮 Data Analysis & DAX
+
+Power BI DAX measures were used to calculate important business metrics and support year-over-year comparisons.
+
+Typical measures used in the dashboard include concepts such as:
+
+### Total Sales
+
+```DAX
+Total Sales = SUM(Sales[Sales])
+```
+
+### Total Profit
+
+```DAX
+Total Profit = SUM(Sales[Profit])
+```
+
+### Total Quantity
+
+```DAX
+Total Quantity = SUM(Sales[Quantity])
+```
+
+### Profit Margin
+
+```DAX
+Profit Margin =
+DIVIDE([Total Profit], [Total Sales], 0)
+```
+
+> The exact measure names and table/column names may differ depending on the final Power BI data model.
+
+---
+
+# 🔄 Year-over-Year Analysis
+
+The dashboard includes year-over-year comparisons for important KPIs.
+
+A general YoY calculation can be represented as:
+
+```DAX
+YoY % =
+DIVIDE(
+    [Current Year Value] - [Previous Year Value],
+    [Previous Year Value],
+    0
+)
+```
+
+This allows the dashboard to communicate whether performance has increased or decreased compared with the previous year.
+
+---
+
+# 🛠️ Tools & Technologies
+
+| Tool / Technology | Purpose |
+|---|---|
+| **Microsoft Power BI** | Dashboard development and visualization |
+| **Power Query** | Data cleaning and transformation |
+| **DAX** | Measures, KPIs, calculations, and time analysis |
+| **Microsoft Excel** | Source data / data preparation |
+| **Power BI Maps** | Geographic analysis |
+| **Git & GitHub** | Version control and project hosting |
+
+---
+
+# 🗂️ Project Structure
+
+A recommended repository structure is:
+
+```text
+Amazon-Sales-Dashboard/
+│
+├── Amazon Sales Dashboard.pbix
+├── Amazon Sale Report (1).xlsx
+├── Dashboard Screenshot.png
+├── Project Report.pdf
+└── README.md
+```
+
+### File Description
+
+| File | Description |
+|---|---|
+| `Amazon Sales Dashboard.pbix` | Main Power BI dashboard file |
+| `Amazon Sale Report (1).xlsx` | Source sales dataset |
+| `Dashboard Screenshot.png` | Dashboard preview image |
+| `Project Report.pdf` | Detailed project documentation/report |
+| `README.md` | Project documentation |
+
+---
+
+# 🔍 Data Preparation
+
+The project follows a typical BI workflow:
+
+```text
+Raw Sales Data
+      ↓
+Data Cleaning
+      ↓
+Data Transformation
+      ↓
+Data Modeling
+      ↓
+DAX Measures
+      ↓
+Visualizations
+      ↓
+Interactive Dashboard
+      ↓
+Business Insights
+```
+
+### Data Preparation Activities
+
+The dataset can be prepared for analysis by:
+
+- Checking missing values
+- Removing duplicate records where required
+- Correcting data types
+- Formatting date columns
+- Standardizing categorical values
+- Validating numeric columns
+- Creating calculated fields/measures
+- Preparing fields for geographic analysis
+- Creating relationships where required
+
+---
+
+# 📐 Dashboard Design
+
+The dashboard follows a one-page business reporting layout.
+
+### Design Principles
+
+- Clear KPI section at the top
+- Interactive slicers
+- Consistent visual hierarchy
+- Category and product comparisons
+- Trend analysis
+- Geographic analysis
+- Detailed product table
+- Minimal unnecessary visuals
+- Business-focused presentation
+
+### Color Theme
+
+The dashboard uses a professional business color palette with:
+
+- Blue for primary/analytical elements
+- Orange for major sales/category visuals
+- Green for positive/profit-related indicators
+- White/light backgrounds for readability
+
+---
+
+# 💡 Key Business Insights
+
+Based on the displayed dashboard view, several areas can be analyzed:
+
+### Sales Performance
+The selected 2024 view shows net sales of approximately **₹18.17M**, compared with approximately **₹18.51M** in the previous year.
+
+### Profitability
+Profit is approximately **₹3.63M**, with a displayed profit margin of around **20%**.
+
+### Category Performance
+The category chart indicates that categories such as **Toys & Games** and **Electronics** are among the larger contributors to sales in the displayed view.
 
 ### Product Performance
+Products such as **Wireless Charger, Yoga Mat, Wireless Earbuds, Webcam Full HD, and Winter Jacket** appear among the leading products by sales in the displayed view.
 
-Identify products with declining sales and improve promotional activities.
+### Payment Analysis
+The donut chart provides a breakdown of sales by payment method, allowing payment-channel contribution to be compared.
 
----
+### Geographic Analysis
+The map provides a state-level view that can be used to investigate geographic differences in business performance.
 
-### Regional Expansion
-
-Recognize high-performing states for business expansion.
-
----
-
-### Customer Analysis
-
-Understand customer purchasing patterns to improve customer retention.
+> These observations are based on the currently displayed filters. Changing the slicers can change the results.
 
 ---
 
-### Revenue Optimization
+# 📌 Business Value
 
-Allocate resources toward profitable products and categories.
+This dashboard can help business stakeholders:
 
----
+### Sales Teams
+- Track revenue performance
+- Identify high-performing products
+- Analyze category contribution
 
-# 📌 Business Benefits
+### Management
+- Monitor KPIs
+- Compare yearly performance
+- Review profitability
+- Identify areas requiring further investigation
 
-Using this dashboard, management can:
+### Operations Teams
+- Understand order volume
+- Analyze product quantity
+- Review payment-method distribution
 
-- Improve decision making
-- Monitor sales performance in real time
-- Increase revenue
-- Optimize inventory
-- Improve customer satisfaction
-- Identify business opportunities
-- Reduce reporting time
-- Make data-driven decisions
-
----
-
-# 🛠 Tools & Technologies
-
-| Tool | Purpose |
-|------|----------|
-| Power BI | Dashboard Development |
-| Power Query | Data Cleaning |
-| DAX | Measures & Calculations |
-| Data Modeling | Relationship Building |
-| Excel Dataset | Data Source |
+### Business Analysts
+- Explore trends
+- Perform category and product analysis
+- Investigate geographic performance
+- Create data-driven reports
 
 ---
 
-# 📊 Power BI Features Used
+# 🚀 How to Use the Dashboard
 
-- Data Cleaning
-- Power Query
-- Data Transformation
-- Data Modeling
-- Relationships
-- Calculated Measures
-- DAX Functions
-- KPI Cards
-- Slicers
-- Interactive Filters
-- Drill-down Analysis
-- Conditional Formatting
-- Custom Dashboard Design
+1. Download the repository from GitHub.
+2. Open `Amazon Sales Dashboard.pbix` using Microsoft Power BI Desktop.
+3. If required, update the source-data path.
+4. Refresh the data.
+5. Use the slicers at the top of the dashboard.
+6. Hover over charts to view detailed values.
+7. Select categories, states, payment methods, or order statuses to perform interactive analysis.
 
 ---
 
-# 📁 Dashboard Components
+# 📋 Project Deliverables
 
-The dashboard includes:
+This project includes:
 
-- Interactive Title
-- KPI Cards
-- Sales Trend Analysis
-- Product Performance
-- Category Analysis
-- State-wise Sales Map
-- Sales Table
-- Dynamic Filters
-- Professional Theme
-- Business-Oriented Layout
+- ✅ Interactive Power BI dashboard
+- ✅ Sales KPI analysis
+- ✅ Year-over-year analysis
+- ✅ Category-level analysis
+- ✅ Product-level analysis
+- ✅ Payment-method analysis
+- ✅ Geographic analysis
+- ✅ Product performance table
+- ✅ Source dataset
+- ✅ Dashboard screenshot
+- ✅ Project report PDF
 
 ---
 
-# 📚 Skills Demonstrated
+# 🎓 Skills Demonstrated
 
-This project demonstrates:
+This project demonstrates practical knowledge of:
 
-- Business Intelligence
 - Data Analytics
-- Dashboard Design
-- Data Cleaning
-- Data Visualization
-- KPI Reporting
-- DAX Calculations
+- Business Intelligence
+- Power BI
 - Power Query
-- Storytelling with Data
-- Business Decision Support
+- DAX
+- Data Cleaning
+- Data Transformation
+- Data Visualization
+- KPI Development
+- Time-Series Analysis
+- Year-over-Year Analysis
+- Geographic Analysis
+- Business Reporting
+- Dashboard Design
+- Excel
+- Git & GitHub
 
 ---
 
-# 🚀 Future Improvements
+# 📷 Dashboard Screenshot
 
-Possible future enhancements include:
+The dashboard provides a single-page view of sales, profit, orders, customers, products, categories, payment methods, and geographic performance.
 
-- Sales Forecasting
-- Customer Segmentation
-- Profit Analysis
-- Return Analysis
-- Dynamic Tooltips
-- Drill-through Reports
-- AI Visuals
-- What-if Parameters
-- Automated Refresh
-- Mobile Dashboard Optimization
+![Dashboard Screenshot](Dashboard%20Screenshot.png)
 
 ---
 
-# 🎓 Learning Outcomes
+# 📁 Repository
 
-Through this project, I gained practical experience in:
+**GitHub Repository:**
 
-- Designing professional Power BI dashboards
-- Creating interactive reports
-- Building KPI dashboards
-- Data cleaning using Power Query
-- Writing DAX measures
-- Business analytics
-- Dashboard storytelling
-- Turning raw data into business insights
-
----
-
-# 📌 Conclusion
-
-The Amazon Sales Dashboard provides a complete overview of business performance through interactive and visually appealing reports.
-
-It enables organizations to monitor sales, evaluate product performance, understand customer behavior, analyze regional trends, and make informed business decisions using real-time visual analytics.
-
-This project demonstrates the practical application of Power BI in solving real-world business problems and converting raw data into meaningful insights that support strategic planning and operational efficiency.
+https://github.com/MohammadAta-BIET7522/Amazon-Sales-Dashboard
 
 ---
 
 # 👨‍💻 Author
 
 **Mohammad Ata**
-B.Tech (Computer Science & Engineering)
 
-Aspiring Data Analyst | Power BI Developer | Python | SQL | Excel
+B.Tech — Computer Science & Engineering  
+Aspiring Data Analyst / Business Intelligence Professional
+
+### Skills
+
+`Python` `SQL` `Excel` `Power BI` `Pandas` `NumPy` `Matplotlib` `Seaborn` `Data Analysis` `Data Visualization` `DAX` `Git` `GitHub`
 
 ---
+
+# ⭐ Project Highlights
+
+- Interactive one-page Power BI dashboard
+- Multiple KPI cards with YoY comparisons
+- Dynamic slicers
+- Category and product performance analysis
+- Payment-method analysis
+- State-level geographic visualization
+- Detailed product performance table
+- Business-focused dashboard design
+- GitHub-ready project documentation
+
+---
+
+## 📄 License
+
+This project is intended for **educational, portfolio, and demonstration purposes**.
+
+---
+
+## ⭐ If You Find This Project Useful
+
+Feel free to explore the repository and use the dashboard structure as a reference for learning Power BI, DAX, data visualization, and business analytics.
+
 
 ## ⭐ If you found this project useful, don't forget to Star the repository!
